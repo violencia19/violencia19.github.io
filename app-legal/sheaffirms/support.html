@@ -1,165 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Support — She Affirms</title>
-    <style>
-        :root {
-            --color-bg: #FFFAF5;
-            --color-surface: #FFFFFF;
-            --color-text: #3D2C2C;
-            --color-text-secondary: #7A6565;
-            --color-accent: #C47D7D;
-            --color-accent-light: #F3E4E4;
-            --color-border: #EDE4DC;
-            --color-heading: #4A3232;
-            --font-serif: 'Georgia', 'Times New Roman', serif;
-            --font-sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-        }
-
-        *, *::before, *::after {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html { font-size: 16px; scroll-behavior: smooth; }
-
-        body {
-            font-family: var(--font-sans);
-            background-color: var(--color-bg);
-            color: var(--color-text);
-            line-height: 1.7;
-            padding: 2rem 1rem;
-            max-width: 680px;
-            margin: 0 auto;
-        }
-
-        h1 {
-            font-family: var(--font-serif);
-            font-size: 2rem;
-            color: var(--color-heading);
-            margin-bottom: 0.5rem;
-        }
-
-        h2 {
-            font-family: var(--font-serif);
-            font-size: 1.3rem;
-            color: var(--color-heading);
-            margin-top: 2rem;
-            margin-bottom: 0.75rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 1px solid var(--color-border);
-        }
-
-        p { margin-bottom: 1rem; color: var(--color-text-secondary); }
-
-        a {
-            color: var(--color-accent);
-            text-decoration: none;
-            border-bottom: 1px solid var(--color-accent-light);
-        }
-
-        a:hover { border-bottom-color: var(--color-accent); }
-
-        .header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-            padding-bottom: 1.5rem;
-            border-bottom: 2px solid var(--color-accent-light);
-        }
-
-        .header p { color: var(--color-text-secondary); font-size: 1.05rem; }
-
-        .faq-item {
-            background: var(--color-surface);
-            border: 1px solid var(--color-border);
-            border-radius: 12px;
-            padding: 1.25rem;
-            margin-bottom: 1rem;
-        }
-
-        .faq-item strong {
-            display: block;
-            color: var(--color-heading);
-            margin-bottom: 0.5rem;
-            font-size: 1.05rem;
-        }
-
-        .contact-box {
-            background: var(--color-accent-light);
-            border-radius: 12px;
-            padding: 1.5rem;
-            text-align: center;
-            margin-top: 2rem;
-        }
-
-        .contact-box a {
-            font-weight: 600;
-            font-size: 1.1rem;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 3rem;
-            padding-top: 1.5rem;
-            border-top: 1px solid var(--color-border);
-            color: var(--color-text-secondary);
-            font-size: 0.85rem;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>She Affirms — Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #FBF5EA; color: #2D2B3D; }
+  body {
+    font-family: "Inter Tight", -apple-system, sans-serif;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 72px 32px 96px;
+    line-height: 1.55;
+  }
+  .stamp {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #8E8A9E;
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-style: italic;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+    color: #2D2B3D;
+    margin-bottom: 48px;
+  }
+  h2 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-style: italic;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 0 16px;
+    color: #2D2B3D;
+  }
+  p, li {
+    font-size: 15px;
+    color: #3A3648;
+    margin-bottom: 14px;
+  }
+  a {
+    color: #6B2B2B;
+    text-decoration: none;
+    border-bottom: 1px solid #6B2B2B;
+    padding-bottom: 1px;
+  }
+  a:hover { opacity: 0.75; }
+  ul { padding-left: 20px; margin-bottom: 14px; }
+  li { margin-bottom: 8px; }
+  .rule {
+    height: 0.5px;
+    background: #C9B59B;
+    border: 0;
+    margin: 48px 0;
+  }
+  .footer {
+    margin-top: 72px;
+    padding-top: 24px;
+    border-top: 0.5px solid #C9B59B;
+    font-size: 12px;
+    color: #8E8A9E;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+</style>
 </head>
 <body>
-    <div class="header">
-        <h1>She Affirms Support</h1>
-        <p>We're here to help you glow.</p>
-    </div>
 
-    <h2>Frequently Asked Questions</h2>
+<div class="stamp">Support · She Affirms</div>
+<h1>We're here for you.</h1>
 
-    <div class="faq-item">
-        <strong>How do I restore my purchases?</strong>
-        <p>Go to Settings in the app and tap "Restore Purchases." This will restore your Premium subscription if you've previously subscribed using the same Apple ID.</p>
-    </div>
+<p>
+  She Affirms is a daily reading and self-care ritual app for women.
+  If something is not working the way you expected, or if you have a
+  question about your reading, subscription, or privacy, this page is
+  the quickest way to reach us.
+</p>
 
-    <div class="faq-item">
-        <strong>How do I cancel my subscription?</strong>
-        <p>Open your iPhone Settings > tap your name > Subscriptions > She Affirms > Cancel Subscription. You'll keep access until the end of your current billing period.</p>
-    </div>
+<h2>Contact</h2>
+<p>
+  Email: <a href="mailto:support@sheaffirms.app">support@sheaffirms.app</a><br>
+  We reply within 48 hours, usually the same day.
+</p>
 
-    <div class="faq-item">
-        <strong>Can I change my language?</strong>
-        <p>Yes! Go to Settings in the app and select your preferred language. She Affirms is available in English, Spanish, Turkish, Portuguese, German, and French.</p>
-    </div>
+<hr class="rule">
 
-    <div class="faq-item">
-        <strong>How does the streak work?</strong>
-        <p>Complete your morning ritual (5 cards) for half a day, and your evening ritual (3 cards) for the other half. Both together count as a full day. Premium members get streak freezes to protect their progress.</p>
-    </div>
+<h2>Common questions</h2>
 
-    <div class="faq-item">
-        <strong>How do I add a widget?</strong>
-        <p>Long press on your Home Screen, tap the + button in the top corner, search for "She Affirms," and choose your preferred widget size. Lock Screen widgets are available too.</p>
-    </div>
+<h3 style="font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; margin: 24px 0 8px; color: #2D2B3D;">Where did my streak go?</h3>
+<p>
+  The streak resets at midnight in your device's timezone if a ritual
+  was not completed that day. Premium members have one streak freeze
+  per seven-day period — it is applied automatically when you miss a
+  day. To check remaining freezes, open Settings → Premium.
+</p>
 
-    <div class="faq-item">
-        <strong>Is my data private?</strong>
-        <p>Absolutely. All your data stays on your device. We don't collect personal information, and we don't track you. Read our <a href="privacy-policy.html">Privacy Policy</a> for full details.</p>
-    </div>
+<h3 style="font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; margin: 24px 0 8px; color: #2D2B3D;">How do I cancel my subscription?</h3>
+<p>
+  Open the iOS Settings app → tap your Apple ID at the top → Subscriptions
+  → She Affirms → Cancel. You can also reach this from within the app:
+  Settings → Premium → Manage subscription.
+</p>
+<p>
+  If you cancel, you keep Premium features until the end of the current
+  billing period. You will not be charged again.
+</p>
 
-    <div class="contact-box">
-        <p>Need more help?</p>
-        <a href="mailto:support@sheaffirms.app">support@sheaffirms.app</a>
-        <p style="margin-top: 0.5rem; font-size: 0.9rem;">We typically respond within 24 hours.</p>
-    </div>
+<h3 style="font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; margin: 24px 0 8px; color: #2D2B3D;">I paid for Lifetime but it says I am not Premium.</h3>
+<p>
+  Open the app → Settings → Premium → tap "Restore purchases". This
+  queries the App Store for any active purchase on your Apple ID and
+  unlocks Premium immediately. If it still does not work after a minute,
+  email us with the Apple ID email you used to buy (we do not see your
+  password, only the purchase record).
+</p>
 
-    <footer>
-        <p>&copy; 2026 She Affirms. All rights reserved.</p>
-        <p style="margin-top: 0.5rem;">
-            <a href="privacy-policy.html">Privacy Policy</a> &middot;
-            <a href="terms-of-use.html">Terms of Use</a>
-        </p>
-    </footer>
+<h3 style="font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; margin: 24px 0 8px; color: #2D2B3D;">Can I request a refund?</h3>
+<p>
+  Refunds are handled by Apple, not by us. Go to
+  <a href="https://reportaproblem.apple.com" target="_blank" rel="noopener">reportaproblem.apple.com</a>,
+  sign in, find She Affirms in your purchase history, and tap "Report a
+  Problem". Apple decides the refund within a few days.
+</p>
+
+<h3 style="font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; margin: 24px 0 8px; color: #2D2B3D;">What data do you collect?</h3>
+<p>
+  Almost none. The app runs on-device — your affirmations, mood entries,
+  favorites, and streaks live in your iPhone's storage only. We do not
+  maintain a user account or server. We use Firebase Analytics for
+  aggregate event counts (how many people open the app each day, for
+  example), never for anything that identifies you. The full breakdown is
+  in our <a href="privacy-policy.html">Privacy Policy</a>.
+</p>
+
+<h3 style="font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; margin: 24px 0 8px; color: #2D2B3D;">Is the app available in my language?</h3>
+<p>
+  At launch, She Affirms ships in English, German, Spanish, French,
+  Portuguese (Brazil), and Turkish. Each language has its own 3,000-
+  affirmation library — not machine-translated.
+</p>
+
+<h3 style="font-family: 'EB Garamond', serif; font-style: italic; font-size: 18px; margin: 24px 0 8px; color: #2D2B3D;">An affirmation is off / I would like to suggest one.</h3>
+<p>
+  Email us the exact text and language, we read every message. If an
+  affirmation lands poorly, we remove or rewrite it in the next release.
+</p>
+
+<hr class="rule">
+
+<h2>Links</h2>
+<ul>
+  <li><a href="privacy-policy.html">Privacy Policy</a></li>
+  <li><a href="terms.html">Terms of Use</a></li>
+  <li><a href="mailto:support@sheaffirms.app">support@sheaffirms.app</a></li>
+</ul>
+
+<div class="footer">
+  She Affirms · © 2026 · Made in Istanbul
+</div>
+
 </body>
 </html>
